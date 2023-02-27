@@ -46,12 +46,33 @@ header h1 {
 header p {
     font-family: var(--fonte-normal);
     color: white;
+    text-shadow: 1px 1px 2px black;
     font-size: 1.2em;
     max-width: 600px;
     text-align: center;
     margin: auto;
     padding: 10px;
+}
+nav {
+    padding: 10px;
+}
+nav a {
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 8px;
+    
+    
+}
+nav a:hover {
+    background-color: #047d3a;
+    text-decoration: underline;
+    
 
     
 
 }
+    
+
