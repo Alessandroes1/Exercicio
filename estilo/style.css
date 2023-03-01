@@ -34,6 +34,8 @@ body {
 header {
     background-image: linear-gradient(to bottom, rgba(0, 118, 0, 0.734),rgb(1, 49, 1));
     min-height: 150px;
+    box-shadow: 2px 2px 10px black;
+    
 }
 header h1 {
     text-align: center;
@@ -55,6 +57,7 @@ header p {
 }
 nav {
     padding: 10px;
+    
 }
 nav a {
     color: white;
@@ -69,10 +72,52 @@ nav a {
 nav a:hover {
     background-color: #047d3a;
     text-decoration: underline;
-    
-
-    
-
+}
+main {
+    max-width: 1000px;
+    min-width: 350px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 7px  rgba(0, 0, 0, 0.625);
+}
+main h1 {
+    font-family: var(--fonte-destaque);
+    color:var(--core5);
+    font-size: 1.7em;
+}
+main h2 {
+    font-family: var(--fonte-destaque);
+    color: #1a5c37;
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, rgba(4, 179, 4, 0.491), transparent);
+    padding: 8px;
+}
+main p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+strong {
+    color: #002c13;
+    background-color: #01a54b7a;
+    padding: 4px;
+}
+main a {
+    color: #002c13;
+    text-decoration: none;
+}
+main a::after {
+    content: '\1f517';
+}
+main a:hover {
+    text-decoration: underline;
+}
+main img {
+    display: block;
+    margin: auto;
+    width: 100%;
 }
     
 
