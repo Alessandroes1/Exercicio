@@ -119,5 +119,26 @@ main img {
     margin: auto;
     width: 100%;
 }
+img.droid {
+    display: block;
+    width: 350px;
+    margin: auto;
+}
+div.video {
+    background-color: #047d3a;
+    margin: 20px 0px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video iframe {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+
+
+}
     
 
