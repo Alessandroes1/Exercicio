@@ -80,6 +80,8 @@ main {
     background-color: white;
     padding: 20px;
     box-shadow: 0px 0px 7px  rgba(0, 0, 0, 0.625);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 main h1 {
     font-family: var(--fonte-destaque);
@@ -126,7 +128,7 @@ img.droid {
 }
 div.video {
     background-color: #047d3a;
-    margin: 20px 0px;
+    margin: 20px 0px 30px 0px;
     padding: 20px;
     padding-bottom: 50%;
     position: relative;
@@ -137,8 +139,46 @@ div.video iframe {
     height: 90%;
     top: 5%;
     left: 5%;
-
-
 }
+aside h3 {
+    color: white;
+    background-color: #047d3a;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+aside {
+    background-color: #3ddc84;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+    aside p {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+    }
+    aside ul {
+        columns: 2;
+        list-style: inside;
+        margin-left: 15px;
+        
+    }
+    footer {
+        background-color: black;
+        padding: 8px;
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+    }
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+
     
 
